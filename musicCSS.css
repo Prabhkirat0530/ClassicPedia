@@ -1,0 +1,264 @@
+html{
+    
+    scroll-behavior: smooth;
+  
+}
+
+:root{
+
+    --primary-color: #ffffffd3;
+    --secondary-color: #212121;
+  
+}
+  
+.dark-theme{
+  
+    --primary-color: #000106;
+    --secondary-color: #fff;
+  
+}
+
+
+
+#body{
+
+    background-color: var(--primary-color);
+    margin: auto;
+	padding: auto;
+    font-family: sans-serif;
+
+}
+
+
+#img{
+
+	width: 100%;
+	height: 450px;
+	background-image: url(Images/music/singing.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -30px;
+
+}
+
+
+
+/* Navigation bar */
+
+#nav{
+
+    position: static;
+    height: auto;
+    top: 0;
+
+}
+
+
+
+.topnav {
+  
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    position: relative;
+    display: inline-block;
+    background-color: var(--primary-color);
+    
+}
+  
+  
+.topnav a {
+    
+    display: inline-block;
+    color: rgb(172, 172, 172);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+  
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+    
+    
+
+#moon{
+
+    width: 30px;
+    cursor: pointer;
+    float: right;
+    margin-top: 8px;
+    margin-right: 10px;
+  
+}
+  
+
+
+/* Text Animation */
+
+
+.ml5 {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+  
+.ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+}
+
+  
+.ml5 .ampersand {
+    font-size: 50px;
+    width: 2em;
+    margin-right: 0.1em;
+    margin-left: 0.1em;
+}
+  
+.ml5 .letters {
+    display: inline-block;
+    background-image: url(Images/texture-orange-example.jpg);
+    font-family: sans-serif;
+    font-weight: 800;
+	color: transparent;
+    background-clip: text;
+	-webkit-background-clip: text;
+}
+
+
+
+
+
+/* Carousel boxes */
+
+.mySlides {display:none;}
+
+#box{
+
+    max-width: 75%;
+    padding-top: 50px;
+}
+
+
+
+/* Boxes */
+
+#rbox{
+
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 25%;
+    height: 300px;
+    padding: 0 10px;
+    perspective: 1000px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .flip-card {
+      width: 100%;
+      display: inline-block;
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+}
+  
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+  
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.flip-card-front {
+    background-color: rgb(209, 209, 209);
+    font-family: sans-serif;
+}
+  
+.flip-card-back {
+    background-color: rgb(178, 73, 76);
+    color: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+.info{
+
+    height:auto;
+    width: auto;
+    background-color: rgb(178, 73, 76);
+    border: 2px solid black;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    display: inline-block;
+    color: black;
+    border-radius: 10px;
+}
+
+.heading{
+
+    font-size: 60px;
+    font-weight: 550;
+}
+
+
+
+/* Footer */
+
+#foot{
+
+    float: left;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    width: auto;
+    text-align: left;
+    margin-left: 16px;
+    
+}

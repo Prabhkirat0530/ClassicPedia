@@ -1,0 +1,193 @@
+html{
+  
+    scroll-behavior: smooth;
+  
+}
+
+:root{
+
+    --primary-color: #ffffffd3;
+    --secondary-color: #212121;
+  
+}
+  
+  .dark-theme{
+  
+    --primary-color: #000106;
+    --secondary-color: #fff;
+  
+}
+
+
+
+#body{
+
+    background-color: var(--primary-color);
+    align-items: center;
+    margin: auto;
+	padding: auto;
+    font-family: sans-serif;
+
+}
+
+
+#img{
+
+	width: 100%;
+	height: 450px;
+	background-image: url(Images/tabla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -30px;
+
+}
+
+
+/* Navigation bar */
+
+#nav{
+
+    position: static;
+    height: auto;
+    top: 0;
+
+}
+
+
+
+.topnav {
+  
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    position: relative;
+    display: inline-block;
+    background-color: var(--primary-color);
+    
+}
+  
+  
+.topnav a {
+    
+    display: inline-block;
+    color: rgb(172, 172, 172);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+  
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+    
+    
+
+#moon{
+
+    width: 30px;
+    cursor: pointer;
+    float: right;
+    margin-top: 8px;
+    margin-right: 10px;
+  
+}
+
+
+
+/* Text Animation */
+
+
+.ml5 {
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+  
+.ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+}
+
+  
+.ml5 .letters {
+    display: inline-block;
+    background-image: url(Images/texture-orange-example.jpg);
+    font-family: sans-serif;
+    font-weight: 800;
+	color: transparent;
+    background-clip: text;
+	-webkit-background-clip: text;
+}
+
+
+/* Search box */
+
+#myInput {
+    width: 90%;
+    margin-left: 4%;
+    font-size: 16px;
+    padding: 12px 0px 12px 20px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    margin-top: 10%;
+}
+
+
+
+/* Information block */
+
+#B1{
+    margin-top: 50px;
+}
+
+
+
+.info{
+    width: auto;
+    height: auto;
+    padding: 30px;
+    background-color: #2E8364;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    display: inline-block;
+    color: black;
+    border-radius: 10px;
+  
+}
+
+
+.center{
+
+    width: 25%;
+    height: auto;
+}
+
+
+/* Footer */
+
+#foot{
+
+    float: left;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    width: auto;
+    text-align: left;
+    margin-left: 16px;
+    
+}

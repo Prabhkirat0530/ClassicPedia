@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Classical Pedia</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="CSS.css">
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+
+  <!-- fav icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
+
+</head>
+
+
+<body id="body">
+
+
+  <!-- Home bar -->
+
+  <div id="bar">
+
+    Classic Pedia
+
+    <!-- Search Box -->
+
+    <div class="searchbox">
+
+      <form>
+        <input type="text2" placeholder=" Search " name="search">
+      </form>
+
+    </div>
+
+  </div>
+
+
+  <!-- Navigation -->
+
+  <nav class="topnav" id="myTopnav" style=" top:0;">
+
+    <a href="website.html">Home</a>
+    <a href="Music.html">Music</a>
+    <a href="Instuments.html">Instuments</a>
+    <a href="People.html">People</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <img style="width: 20px;" src="bars.svg">
+    </a>
+
+    <div id="login" class="login">
+
+      <a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a>
+      <a onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</a>
+
+    </div>
+
+    <!-- Login -->
+
+    <div id="id01" class="modal1">
+
+      <form class="modal1-content animate" action="/action_page.php" method="post">
+        <div id="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" id="close1"
+            title="Close Modal">&times;</span>
+          <img src="Images/avtaar.png" alt="Avatar" id="avatar">
+        </div>
+
+        <div id="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit" class="butt">Login</button>
+          <label><br>
+            <input style="cursor: pointer;" type="checkbox" checked="checked" name="remember"> Remember me
+          </label><br>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'"
+            id="cancelbtn">Cancel</button>
+          <span class="psw"><a href="#">forgot password?</a></span>
+        </div>
+      </form>
+    </div>
+
+
+
+    <!-- Sign up -->
+
+    <div id="id02" class="modal2">
+
+      <form class="modal-content2 animate" action="/action_page.php">
+        <span onclick="document.getElementById('id02').style.display='none'" id="close2"
+          title="Close Modal">&times;</span>
+        <div class="container">
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+          <label>
+            <input style="cursor: pointer;" type="checkbox" checked="checked" name="remember"
+              style="margin-bottom:15px"> Remember me
+          </label>
+
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+          <div class="clearfix">
+            <button type="button" onclick="document.getElementById('id02').style.display='none'"
+              id="cancelbtn2">Cancel</button>
+            <button type="submit" id="signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+
+    <!-- Dark theme -->
+
+    <img id="moon" class="login" src="Images/dark theme icon/moon.png">
+    
+  </nav>
+
+
+
+
+
+  <div id="Main">
+
+    <h1 class="ml15">
+      <span class="word"> Music acts like a magic key,</span>
+      <span class="word"> to which the most tightly closed heart opens for peace</span>
+    </h1>
+
+  </div>
+  <br>
+
+
+  <img id="sing0" src="Images/main.jpg">
+  <img id="sing1" src="Images/main2.jpg">
+
+
+
+  <div style="background-color: var( --primary-color)">
+
+    <br>
+    <br>
+
+    <div id="div2" class="reveal">
+
+      <h2>Classical Music</h2>
+
+      <p>In the era of Electric music and DJ we often forget where we started. The music from heaven or as we say music
+        of the soul, music which enlighten us and makes us feel another dimensions of life, music which every planet is
+        singing, music which every life is experiencing. The classical music is the most purest form of music present
+        today. Delivering spiritual and religious experiences the music can bring joy and happiness to anybody's life.
+      </p>
+
+      <a href="Music.html" id="but1"> Learn More >></a>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+
+    <!-- Image -->
+
+    <img id="image1" src="Images/Beat.jpg">
+    <img id="image2" src="Images/images.jpeg">
+    <img id="image3" src="Images/image3.jpg">
+
+    <br><br><br><br>
+
+
+
+    <div id="div3" class="reveal">
+
+      <h2>Classical Instuments</h2>
+
+      <p>Accumping the music, various instruments are used to amplify the sound and emotion of the classical raag's.
+        Instruments of strings and sticks are used to create a spiritual experience. Classical music include the sitar,
+        sarod, surbahar, esraj, veena, tanpura, bansuri, shehnai, sarangi, violin, santoor, pakhavaj and tabla. Out of
+        which Tabla and Harmonium are commanly used yet their are various other instruments that are rare and not widely
+        available. </p>
+
+      <a href="Instuments.html" id="but2"> Learn More >></a>
+
+    </div>
+
+
+
+    <img id="people" src="Images/people.png">
+
+
+
+    <p id="p2"> Classical Pedia is a collection of all the rare and classical music, instuments and People all at the
+      same place </p>
+
+    <br>
+    <button onclick="document.location='People.html'" id="bute">Explore People</button>
+    <br>
+
+  </div>
+
+
+  <br>
+  <br>
+
+
+  <!-- About -->
+
+
+  <div class="about-section" id="about">
+
+    <h1>About</h1>
+
+    <p style="font-size: 20px;"> Classic Pedia provides you with all the rare and unknown musical
+      instuments and singing styles. A complete guide of indian classical music and ragas which will help you in
+      learning the classical music and heritage of INDIA. Classic Pedia is a completly free enscyclopedia for the
+      curios and young minds. The music that hits our hearts, the vocals that purifies the soul and the ragas which
+      strengts the mind are all the music from heaven. Let your mind relax and let your soul connect with the godly
+      ones. The sound that started all the creation and made universe possible is all present here.</p><br>
+
+  </div><br>
+
+
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <div class="container2">
+          <br>
+          <h2>PrabhKirat Singh</h2>
+          <p class="title">Founder</p>
+          <p>Developer of Classic Pedia</p>
+          <p>prabhkirat0530.be20@chitkara.edu.in</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <div class="container2">
+            <br>
+            <h2>Sparsh Sharma</h2>
+            <p class="title">Founder</p>
+            <p>Developer of Classic Pedia</p>
+            <p>sparsh0700.be20@chitkara.edu.in</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Contact -->
+
+      <div id="contact">
+        <h2>Contact</h2>
+
+        <div id="Con" class="col">
+
+          <a href="https://www.linkedin.com/in/prabhkirat-singh-12a5691b7/" class="li bb">
+            <i class="fa fa-Linkedin fa-fw"></i> Linkedin
+          </a>
+          <a href="https://twitter.com/PrabhkiratSin17" class="twitter bb">
+            <i class="fa fa-twitter fa-fw"></i> Twitter
+          </a>
+          <a href="https://github.com/Prabhkirat0530" class="github bb">
+            <i class="fa fa-google fa-fw"></i> GitHub
+          </a>
+
+        </div><br><br>
+
+      </div><br>
+
+
+    </div>
+  </div>
+
+
+
+  <!-- Copyright -->
+
+  <footer id="foot">
+
+    <p>@Copyright Classic Pedia</p>
+
+  </footer>
+
+
+  <!-- Scripts -->
+
+  <script src="darkmode.js"></script>
+  <script src="scrollanimation.js"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="text.js"></script>
+
+
+  <!-- Login and Signup -->
+
+  <script>
+
+    var modal1 = document.getElementById('id01');
+
+    window.onclick = function (event) {
+      if (event.target == modal1) {
+        modal1.style.display = "none";
+      }
+    }
+  </script>
+
+  <script>
+
+    var modal2 = document.getElementById('id02');
+
+    window.onclick = function (event) {
+      if (event.target == modal2) {
+        modal2.style.display = "none";
+      }
+    }
+  </script>
+
+
+
+  <!-- Responsive navigation -->
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+
+
+
+</body>
+
+</html>
